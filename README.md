@@ -18,10 +18,13 @@ This project is a simple REST API for a hypothetical online restaurant service. 
 - Maven (Dependency Management)
 
 ## API Endpoints
-Product Endpoints
-Method	URL	Description
-GET	/api/products	Retrieve all products.
-POST	/api/products	Create a new product.
-GET	/api/products/{id}	Retrieve product by ID.
-PATCH	/api/products/{id}	Update data in product by ID.
-DELETE	/api/products/{id}	Delete a product by ID.
+## Product Endpoints
+
+| Method | URL                  | Description                      |
+|--------|----------------------|----------------------------------|
+| GET    | /api/products        | Retrieve all products.           |
+| POST   | /api/products        | Create a new product.            |
+| GET    | /api/products/{id}   | Retrieve product by ID.          |
+| PATCH  | /api/products/{id}   | Update data in product by ID.    |
+| DELETE | /api/products/{id}   | Delete a product by ID.          |
+.
