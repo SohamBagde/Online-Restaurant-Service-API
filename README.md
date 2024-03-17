@@ -18,32 +18,32 @@ This project is a simple REST API for a hypothetical online restaurant service. 
 - Maven (Dependency Management)
 
 ## API Endpoints
-Product Endpoints
+- Product Endpoints
 Retrieve all products:
 
-GET /api/products
+- GET /api/products
 Retrieve product by ID:
 
-GET /api/products/{id}
+- GET /api/products/{id}
 Create a new product:
 
-POST /api/products
+- POST /api/products
 Update an existing product:
 
-PUT /api/products/{id}
+- PUT /api/products/{id}
 Delete a product:
 
-DELETE /api/products/{id}
+- DELETE /api/products/{id}
 Order Endpoints
 Retrieve all orders:
 
-GET /api/orders
+- GET /api/orders
 Retrieve order by ID:
 
-GET /api/orders/{id}
+- GET /api/orders/{id}
 Place a new order:
 
-POST /api/orders
+- POST /api/orders
 Delete an order:
 
-DELETE /api/orders/{id}
+- DELETE /api/orders/{id}
